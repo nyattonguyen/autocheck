@@ -1,0 +1,72 @@
+[
+    {"_id": "1qrasf14rwsaf124rf",  
+    "idBaiTap":"1234",
+    "noidung":"anata no kyo ha doushimasuka aaaaa",
+    "diem":"4",
+    "listdapan":[
+         {
+            "_id": "11",  
+            "idCauHoi":"1qrasf14rwsaf124rf",
+            "noidung":"un",
+            "isTrue": true
+         },
+         {
+            "_id":  "12",
+          "idCauHoi":"1qrasf14rwsaf124rf",
+          "noidung":"uun",
+          "isTrue":false
+         },
+         {
+            "_id": "13",
+          "idCauHoi":"1qrasf14rwsaf124rf",
+          "noidung":"iie",
+          "isTrue":false
+          },
+          {
+            "_id": "14",
+           "idCauHoi":"1qrasf14rwsaf124rf",
+            "noidung":"ok",
+            "isTrue":false
+            }
+        ]
+
+    },
+    {"_id":  "1qrasf14rwsaf124rfasd",
+    "idBaiTap":"1234",
+    "noidung":"kyo ne. daiyobu",
+    "diem":"2",
+    "listdapan":
+    [
+      {
+         "_id": "11",  
+         "idCauHoi":"1qrasf14rwsaf124rf",
+         "noidung":"daiyoubu",
+         "isTrue": true
+      },
+      {
+         "_id":  "12",
+       "idCauHoi":"1qrasf14rwsaf124rf",
+       "noidung":"A",
+       "isTrue":false
+      },
+      {
+         "_id": "13",
+       "idCauHoi":"1qrasf14rwsaf124rf",
+       "noidung":"iie",
+       "isTrue":false
+       },
+       {
+         "_id": "14",
+        "idCauHoi":"1qrasf14rwsaf124rf",
+         "noidung":"ok",
+         "isTrue":false
+         }
+     ]
+    },
+    {"_id": "1qrasf14rwsaf124rffasd",
+    "idBaiTap":"1234",
+    "noidung":"ganbaro ne",
+    "diem":"4"
+    }
+    
+]

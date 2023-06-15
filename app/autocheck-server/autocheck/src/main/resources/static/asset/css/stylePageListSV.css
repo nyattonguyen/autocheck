@@ -1,0 +1,225 @@
+.wapper-page-sv {
+    top: 77px;
+    position: fixed;
+    display: none;
+    height: 100%;
+    background-color: white;
+    border: none;
+    width: 100%;
+    animation-duration: 1s;
+}
+
+.body-sv {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.sidebar-sv {
+    background-color: white;
+    border-right: 0.5px solid rgba(155, 155, 155, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}   
+.all-sv {
+    position: relative;
+    margin-right: -7px;
+    overflow: hidden;
+    height: 100%;
+}
+.item-all-sv {
+    margin: 5px 0;
+}
+.img-group-sv,
+.img-group-sv.col-1 {
+    width: 50px;
+    height: 50px;
+    background-color: var(--box-exercise);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 36px;
+
+}
+.all-sv p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.img-group-sv i {
+    font-size: 18px;
+    color: white;
+}
+.item-sv {
+    display: flex;
+    padding: 6px 18px;
+}
+.item-sv.row {
+    padding: 4px 26px 4px 4px;
+}
+.item-sv:hover {
+    text-decoration: underline;
+    color: rgb(9, 42, 141);
+    background-color: var(--item-user);
+}
+.btn-close-pgsv {
+	font-size: 28px;
+    color: black;
+    position: relative;
+    float: right;
+    top: 10px;
+}
+ .btn-close-pgsv:hover {
+	 color: #c62f2fc7;
+     cursor: pointer;
+ }
+  .mask-sv:focus + .icon-more {
+    display: block;
+  }
+.item-mask-sv.col-3 {
+    margin-top: 6px;
+    position: relative;
+    display: flex;
+    width: 44%;
+    right: -12px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    /* display: none; */
+    z-index: 4;
+    cursor: default;
+}
+
+.mask-sv {
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    padding-left: 82px;
+    width: 156px;
+    color: black;
+}
+
+.box-info-sv {
+    position: relative;
+    /* display: block; */
+    display: none;
+}
+.btn-close-sv {
+    float: right;
+    right: 0;
+    top: 30px;
+    position: absolute;
+    transition: all 0.2s ease-out;
+}
+.btn-close-sv:hover{
+    cursor: pointer;
+}
+.btn-close-sv i:hover {
+    color: black !important;
+}
+.box-name-mask-sv {
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+}
+.text-name-sv {
+    font-size: 3rem;
+}
+.text-name-sv:hover {
+    color: rgb(0, 56, 169);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.status-exer {
+    font-size: 2rem;
+}
+.mask-sv{
+    width: 250px;
+    cursor: default;
+}
+.mask-sv-no h3 {
+    font-size: 2.4rem;
+}
+.content-sv-box-main {
+    padding-left: 30px;
+    min-height: 500px;
+    height: auto;
+}
+.title-exer-main {
+    top: 50px;
+    position: relative;
+    margin-bottom: 70px;
+
+}
+.title-exer-main h2 {
+    font-size: 30px;
+}
+.mask-sv-amount {
+    display: flex;
+}
+.mask {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.mask h2 {
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 4.25rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+}
+.unmask-sv {
+    margin-left: 40px;
+    border-left: 1px solid;
+    padding-left: 10px;
+    border-left: 1px solid #b3b3b3;
+}
+.list-item-user-exer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    transition: all 0.4s ease;
+}
+.item-user-exer {
+    width: 200px;
+    height: 100px;
+    background-color: #e6e6e6;
+    display: block;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 14px;
+}
+.item-user-exer:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+.img-sv.col-1 {
+    width: 40px;height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--box-exercise);
+}
+.img-sv i {
+    font-size: 20px;
+}
+.item-user-exer p {
+    font-size: 1.5rem;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.item-user-exer h3 {
+    font-weight: 400;
+    margin-top: 15px;
+}
+.status-user {
+    position: relative;
+    bottom: 20px;
+}

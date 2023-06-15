@@ -1,0 +1,47 @@
+#canvas-container,
+#canvas-container2 {
+    width: 100%;
+    height: 130px;
+    background-color: black;
+}
+#canvas-container2 {
+    width: 95%;
+    height: 265px;
+    margin-left: 6%;
+    box-shadow: -2px 4px 5px 14px rgb(165 166 166);
+}
+.model3d-container {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.9;
+}
+
+canvas {
+    display: block;
+    top: 0;
+    overflow: hidden;
+    width: 100% !important;
+    position: absolute;
+    height: 100% !important;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.icon-info_class {
+    width: 100px;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+}
+.icon-info_class.animate {
+    animation-name: move-up-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes move-up-down {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }

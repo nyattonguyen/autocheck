@@ -1,0 +1,18 @@
+[
+    {
+        "id": "123",
+        "tieude": "Khao sat hom nay ",
+        "idGiangVien": "km132",
+        "idMon":"CSDL",
+        "idLop":"19DTHJB1",
+        "thoigian":"3/3/2023"
+    },
+    {
+        "id": "124",
+        "tieude": "Khao sat 1 ",
+        "idGiangVien": "km132",
+        "idMon":"THCSDL",
+        "idLop":"19DTHJB1",
+        "thoigian":"3/3/2023"
+    }
+]

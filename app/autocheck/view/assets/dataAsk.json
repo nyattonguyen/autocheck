@@ -1,0 +1,24 @@
+[
+    {"_id": "11",  
+    "idCauHoi":"1qrasf14rwsaf124rf",
+    "noidung":"un",
+    "isTrue": true
+
+    },
+    {"_id":  "12",
+    "idCauHoi":"1qrasf14rwsaf124rf",
+    "noidung":"uun",
+    "isTrue":false
+    },
+    {"_id": "13",
+    "idCauHoi":"1qrasf14rwsaf124rf",
+    "noidung":"iie",
+    "isTrue":false
+    },
+    {"_id": "14",
+    "idCauHoi":"1qrasf14rwsaf124rf",
+    "noidung":"ok",
+    "isTrue":false
+    }
+    
+]

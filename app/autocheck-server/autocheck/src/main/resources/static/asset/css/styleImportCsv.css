@@ -1,0 +1,119 @@
+.modal-import-csv {
+    position: absolute;
+    top: 0;
+    background: black;
+    width: 100%;
+    z-index: 4;
+    height: 100%;
+    border-radius: 6px;
+    display: none;
+}
+.box-import-csv {
+    position: relative;
+    height: 100%;
+    width: 80%;
+    
+}
+.header-box-import-csv {
+    justify-content: center;
+    align-items: center;
+}
+.header-box-import-csv h2 {
+    color: wheat;
+}
+
+.item-question {
+    position: relative;
+    display: flex;
+    
+}
+.title-import-csv {
+    width: 160px;
+    font-size: 18px;
+    font-weight: 400;
+    color: wheat;
+}
+.item-icon.row {
+    position: relative;
+    margin-left: 24px;
+    margin-top: 20px;
+    display: flex;
+}
+.item-ask.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 54px;
+    margin-top: 20px;
+}
+.item-icon i {
+    color: #0c3aa7;
+    animation: moveUpDown 1.5s infinite;
+    font-size: 20px;
+}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+      color:azure
+    }
+    100% {
+      transform: translateY(20px);
+      color: #418fc7;
+      
+    }
+  }
+.item_dot {
+    font-size: 20px;
+    color:wheat;
+}
+.line-ask {
+    border-bottom: 2px solid #ccc;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.mr-20 {
+    margin-right: -68px;
+}
+.mr-35 {
+    margin-right: 35px;
+}   
+.body-box-import-csv {
+    display: flex;
+    background-color: transparent;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    border:  1px solid #ccc;
+    margin-top: 40px;   
+    box-shadow: 0 0 10px rgb(12, 72, 155);
+
+}
+.btn-import {
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #181818;
+    color: white;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+.btn-import:hover {
+    background: #181879;
+}
+.note-import {
+    width: 400px;
+    
+}
+.box-item-note1,.box-item-note2 {
+    color: wheat;
+    height: 246px;
+    display: grid;
+}
+.item-note{
+    font-size: 18px;
+}

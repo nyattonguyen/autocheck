@@ -1,0 +1,42 @@
+#btn-login {
+    background-color: #ca74adc9 !important;
+    border: 1px solid transparent;
+}
+#btn-login:hover,
+#btn-login:focus,
+#btn-login.active,
+#btn-login:active,
+.open > .dropdown-toggle#btn-login {
+    background-color: #c465bfc2 !important;
+    border: 1px solid #ffffffd0;
+}
+#btn-login.active.focus,
+#btn-login.active:focus,
+#btn-login.active:hover,
+#btn-login.focus:active,
+#btn-login:active:focus,
+#btn-login:active:hover,
+.open > .dropdown-toggle#btn-login.focus,
+.open > .dropdown-toggle#btn-login:focus,
+.open > .dropdown-toggle#btn-login:hover {
+    background-color: #c465bfc2 !important;
+    border: 1px solid #ffffffd0;
+}
+#btn-login.active:not(:disabled):not(.disabled),
+#btn-login:active:not(:disabled):not(.disabled),
+.show > #btn-login.dropdown-toggle {
+    background-color: #c465bfc2 !important;
+    border-color: #ffffffd0;
+    color: #fff;
+}
+#btn-login.active:focus:not(:disabled):not(.disabled),
+#btn-login:active:focus:not(:disabled):not(.disabled),
+.show > #btn-login.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+#btn-login.disabled,
+#btn-login:disabled {
+    background-color: #c465bfc2;
+    border-color: #ffffffd0;
+    color: #fff;
+}

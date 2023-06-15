@@ -1,0 +1,67 @@
+.intro {
+  height: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.table-exer-user td,
+.table-exer-user th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.header-q-a-user th {
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: normal;
+}
+.header-q-a-user th:first-child {
+  padding-left: 20px;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.table-scroll {
+  border-radius: 0.5rem;
+}
+
+.table-scroll table .header-q-a-user th {
+  font-size: 1.25rem;
+}
+.header-q-a-user {
+  top: 0;
+  position: sticky;
+}
+.body-q-a-user tr td {
+  font-size: 20px;
+}
+.body-q-a-user td:first-child {
+  border-right: 1px solid #ccc;
+}
+.bt-null {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bt-null span {
+  font-size: 28px;
+  font-weight: 500;
+}
+.item-username-sv {
+  display: block;
+  font-size: 16px;
+  color: var(--primary-color-hover);
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+}
+#button-search-buoi {
+  margin-right: 10px;
+}
