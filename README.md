@@ -1,6 +1,4 @@
 # AUTOCHECK
-1. Lưu ý đặt tên project không có tiếng việt, không khoảng trắng
-2. Nếu tên user của win lỡ đặt có khoảng cách thì đặt dự án ở ổ đĩa khác
-3. Frontend sẽ làm việc trong thư mục /app/autocheck/view
-4. Backend sẽ làm việc trong thư mục /app/autocheck và app/autocheck/android
-5. Chỉ làm việc với file đã quy định, không chỉnh sữa code của người khác mà không thông báo, vì sẽ bị ghi đè code dẫn đễ lỗi
+Giải pháp điểm danh thông minh(QR, Fingerprint)
+![image](https://github.com/nyattonguyen/autocheck/assets/99775345/5bd2403f-f613-443e-8e95-ebe4e34d7266)
+![image](https://github.com/nyattonguyen/autocheck/assets/99775345/56947c87-3661-4293-aff4-59b68a632ac0)
